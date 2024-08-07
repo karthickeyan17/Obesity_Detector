@@ -29,7 +29,7 @@ def get_user_input():
     return features
 
 # Main function to run the Streamlit app
-def main():
+def app():
     st.title("Obesity Prediction App")
     
     # Get user input
@@ -54,4 +54,4 @@ def main():
         st.write(labels[prediction[0]])
 
 if __name__ == '__main__':
-    main()
+    app()
